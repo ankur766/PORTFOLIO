@@ -7,6 +7,12 @@ This is a portfolio app built with React, Tailwind CSS, and Bootstrap. It showca
   
 You can see a live demo of the app [here](https://portfolio-phi-six-61.vercel.app/).
 ## SCREENSHOT
+<img width="947" alt="image" src="https://github.com/ankur766/PORTFOLIO/assets/106395652/c91cb53f-2ca4-4333-8a43-c59d56b02a2f">
+<img width="960" alt="image" src="https://github.com/ankur766/PORTFOLIO/assets/106395652/620e55b8-4498-4730-8be4-f404a3450b2b">
+<img width="942" alt="image" src="https://github.com/ankur766/PORTFOLIO/assets/106395652/ce1a3166-b459-4311-bdeb-6cef6f32bb92">
+
+
+
 
 
 ## Usage
