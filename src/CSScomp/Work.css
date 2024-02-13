@@ -1,0 +1,85 @@
+
+.card-container{
+    
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ position: relative;
+    gap: 70px;
+    z-index: 10;
+}
+.card{
+    
+    height: 20rem;
+    width: 20rem;
+    background: linear-gradient(to right top, #D3D3D3, #6e7186, #424242),
+    linear-gradient(to left bottom, #D3D3D3, #6e7186, #424242);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+    
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: all ease 0.6s;
+}
+
+
+
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+    opacity: 1;
+    transition: all ease 0.6s;
+
+
+}
+.overlay h4{
+
+
+font-size: 20px;
+text-align: center;
+white-space: nowrap;
+text-transform: uppercase;
+font-weight: 700;
+margin-bottom: 20px;
+
+}
+.overlay p{
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 20px;    
+
+}
+.buttncls{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to right top, #D3D3D3, #6e7186, #424242),
+            linear-gradient(to left bottom, #D3D3D3, #6e7186, #424242);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;  
+        
+}
+
+
+
+   
+.card:hover{
+    transform: rotate3d(-1,1,0,20deg);
+}
+
+
